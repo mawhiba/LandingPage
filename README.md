@@ -4,7 +4,7 @@
 
 * [Instructions](#instructions)
 * [Installation](#installation)
-* [Project Summary](#Project Summary)
+* [ProjectSummary](#ProjectSummary)
 
 ## Instructions
 
