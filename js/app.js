@@ -25,6 +25,9 @@ const sectionsName = document.querySelectorAll('h2');
  * Start Helper Functions
  *
 */
+
+/* This function is responsible for highlight the associated
+ section name in the nav bar according to user scroll */
 function active(sectionId) {
     const listItem = document.querySelectorAll('li');
     const link = document.querySelectorAll('a');
@@ -39,7 +42,8 @@ function active(sectionId) {
     }
     
 }
-
+/* This function is responsible for unhighlight the associated
+ section name in the nav bar according to user scroll */
 function unActive(sectionId) {
     const listItem = document.querySelectorAll('li');
     const link = document.querySelectorAll('a');
@@ -97,7 +101,7 @@ for(let i = 0; i < sectionsName.length; i++){
 // Set sections as active
 
 
-//Create IntersecionObserver
+//Create Intersecion Observer to handle scrolling process
 const sections = document.querySelectorAll("section");
 
 const options = {
