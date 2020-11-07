@@ -72,6 +72,7 @@ section {
 
 .navbar__menu li {
     display: inline-block;
+    font-size: large;
 }
 
 .navbar__menu .menu__link {
@@ -121,6 +122,7 @@ section {
         max-width: 50em;
         padding: 4em;
     }
+    
 }
 
 section:nth-of-type(even) .landing__container {
@@ -244,4 +246,11 @@ section.your-active-class .landing__container::after {
 		           translate(-1em) 
 		           rotate(-360deg);
 	}
+}
+
+@media(max-width:415px) {
+    .navbar__menu li {
+        display: inline-block;
+        font-size: x-small;
+    }
 }
